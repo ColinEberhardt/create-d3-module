@@ -1,0 +1,20 @@
+{
+  "name": "create-d3-module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "create-d3-module": "bin/cli.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "inquirer": "^3.2.2",
+    "mkdirp": "^0.5.1",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}

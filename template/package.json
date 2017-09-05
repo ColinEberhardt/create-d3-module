@@ -1,0 +1,19 @@
+{
+  "name": "${name}",
+  "version": "1.0.0",
+  "description": "${description}",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "d3-pretest",
+    "test": "d3-test",
+    "prepublishOnly": "d3-prepublish",
+    "postpublish": "d3-postpublish"
+  },
+  "author": {
+    "name": "${author}"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "d3-scripts": "d3/d3-scripts"
+  }
+}
